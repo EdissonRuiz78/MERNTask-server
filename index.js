@@ -25,5 +25,5 @@ app.use("/api/tasks", require("./routes/tasks"));
 
 //Start app listening on port PORT
 app.listen(port, "0.0.0.0", () => {
-  console.log(`Listening on port ${PORT}`);
+  console.log(`Listening on port ${port}`);
 });
